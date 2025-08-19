@@ -21,7 +21,7 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #a8c6eb; /* Background color for the entire website, including individual sections */
+  --background-color: #e8f0fb; /* Background color for the entire website, including individual sections */
   --default-color: #314862; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #13447f; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #065cc2; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -42,7 +42,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f7faff;
+  --background-color: #e8f0fb;
   --surface-color: #ffffff;
 }
 
@@ -1123,7 +1123,7 @@ section,
 # Skills Section
 --------------------------------------------------------------*/
 .skills .skills-grid .skill-card {
-  background: linear-gradient(135deg, var(--surface-color) 0%, color-mix(in srgb, var(--surface-color), var(--accent-color) 5%) 100%);
+  background: #ffffff;
   border-radius: 15px;
   padding: 30px;
   height: 100%;
